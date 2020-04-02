@@ -20,13 +20,25 @@
 	-->
 	<link href="assets/theme.css" id="theme-style" rel="stylesheet" />
 	<style>
+		.hero-section{
+			margin:0em 1em 1em 1em !important;
+		}
 		#cta-top {
 			padding-right: 3.5rem !important;
 			padding-left: 3.5rem !important;
 			border: none;
 		}
-		.figure-holder{
-			background-image:url(assets/playstore-app.png) !important;
+		.figure-holder {
+			background-image: url(assets/playstore-app.png) !important;
+		}
+		.why-section .card{
+			background:white !important;
+			border: 1px solid rebeccapurple;
+		}
+		@media (max-width: 575.98px){
+			.hero-section .figure-holder {
+				padding-bottom: 335px !important;
+			}
 		}
 	</style>
 </head>
@@ -44,7 +56,8 @@
 					<span class="col col-lg-2">
 						<h1 class="site-logo" style="margin-top:0.5em">
 							<a class="navbar-brand" href="/"><span class="logo-text">
-							<img alt="Khalti" src="assets/khalti-logo.png" /></span></a></h1>
+									<img alt="Khalti" src="assets/khalti_logo_alt_new.png" height=75
+										style="max-height:75px;" /></span></a></h1>
 					</span>
 					<span class="col col-lg-5"></span>
 				</nav>
@@ -60,7 +73,7 @@
 		<div class="container">
 			<div class="row figure-holder">
 				<div class="col-12 col-md-6 pt-3 pt-md-4">
-					<h2 class="site-headline m-sm-4 p-sm-5" style="font-weight: normal; margin-bottom:1em;">
+					<h2 class="site-headline" style="font-weight: normal; margin-bottom:1em;">
 
 						<span class="font-weight-bold">
 							खल्ती डिजिटल वालेट
@@ -91,10 +104,6 @@
 							</a></div>
 						<span style="font-size:10px; top:0;font-weight:700;">Online Pay गरौँ, अरुलाई पनि Pay गर्न सहयोग
 							गरौँ ।</span>
-						<!--<ul class="app-stores list-unstyled list-inline mx-auto mx-md-0 d-inline-block">
-						    <li class="list-inline-item mr-3"><a href="#"><img class="ios" src="assets/appstore-apple.svg" alt="app-store"></a></li>
-						    <li class="list-inline-item"><a href="#"><img class="android" src="assets/appstore-android.svg" alt="google play"></a></li>
-					    </ul>-->
 					</div>
 				</div>
 			</div>
@@ -103,34 +112,47 @@
 	</section>
 	<!--//hero-section-->
 
-	<section class="logos-section theme-bg-primary py-5 text-center" style="">
+	<section class="why-section theme-bg-primary py-5 text-center">
 		<div class="container">
-			<!--<h3 class="mb-5"></h3>-->
-			<div class="logos-row row mx-auto">
-				<div class="item col-6" style="border-right:1px solid #121212;">
-					<div class="item-inner" style="text-align: left; color: #000000;font-weight: 900;">
-						<p>घरमै बसी बसी Khalti mobile app प्रयोग गरि सजिलै सबै Utility भुक्तानी गर्नुहोस् । साथै विभिन्न
-							सेवाहरूको लागि प्रयोग गर्न सक्नुहुनेछ:<br />
-							-- नि: शुल्क ATM Card, ebanking, mbaking मार्फत Khalti मा पैसा Load गर्नुहोस् ।<br />
-							-- नि: शुल्कआफ्नो बैंक खातामा पैसा पठाउनुहोस्।</p>
-					</div>
-					<!--//item-inner-->
+			<h3 class="mb-5 font-weight-bold">खल्ती एप नै किन ?</h3>
+			<div class="card-columns">
+				<div class="card p-1">
+					<blockquote class="blockquote mb-0 card-body">
+						<strong>सरल भुक्तानी</strong>
+						<br />
+						घरमै बसी Khalti Mobile App मार्फत सुरक्षित बिल भुक्तानी र रिचार्ज सेवा
+					</blockquote>
 				</div>
-				<!--//item-->
-
-				<div class="item col-6">
-					<div class="item-inner" style="text-align: left; color: #000000;font-weight: 900;">
-						<p>Khalti बाट रिचार्ज गर्दा Ncell मा १२०% बोनस पाउनुहोस् । साथै Smart Tel रिचार्ज गर्दा मा 6GB
-							सम्मको डाटा पाउनुहोस्।<br />
-							-- -- आफ्नो तथा आफ्नो प्रिय साथीभाईहरुलाई सजिलै खल्ती प्रयोग गरि रिचार्ज गरिदिनुहोस्।<br>
-							-- Online Pay गरौँ, अरुलाई पनि Pay गर्न सहयोग गरौँ ।</p>
-
-						<p></p>
-					</div>
-					<!--//item-inner-->
+				<div class="card p-1">
+					<blockquote class="blockquote mb-0 card-body">
+						<strong>अतिरिक्त शुल्क नलाग्ने</strong>
+						<br />
+						ATM Card, eBanking, mBaking मार्फत Khalti मा नि:शुल्क पैसा Load गर्न सकिने
+						<br />
+						<span style="color:#783293">नि: शुल्क कुनै पनि बैंक खातामा पैसा पठाउन सकिने</span>
+					</blockquote>
 				</div>
-				<!--//item-->
+				<div class="card p-1">
+					<blockquote class="blockquote mb-0 card-body">
+						<strong>रिचार्जमा भारी बोनस</strong>
+						<br />
+						Khalti बाट रिचार्ज गर्दा Ncell मा १२०% बोनस साथै Smart मा 6GB सम्म डाटा
+					</blockquote>
+				</div>
+				<div class="card p-1">
+					<blockquote class="blockquote mb-0 card-body">
+						चलाउन सजिलो, सिकाउन झन सजिलो
+					</blockquote>
+				</div>
+				<div class="card p-1">
+					<blockquote class="blockquote mb-0 card-body">
+							<strong>समृद्ध नेपाल</strong>
+							<br />
+						नगद रहित कारोबारमा विशेष टेवा, डिजिटल नेपालको अभियानमा सहायता
+					</blockquote>
+				</div>
 			</div>
+			<!--//item-->
 		</div>
 		<!--//container-->
 	</section>
@@ -142,6 +164,17 @@
 			</h3>
 			<a class="btn theme-btn theme-btn-ghost theme-btn-on-bg mt-4" href="https://khalti.com/app"
 				target="_blank">Download Khalti Digital Wallet</a>
+
+			<h2>
+				अप्ठ्यारो पर्यो ?
+				<br />
+				<small>
+					टोल फ्रि : 1660-01-58888 (नेपाल टेलिकम)
+					कल सेन्टर : 01-597-0017 (सबै)
+				</small>
+			</h2>
+
+
 		</div>
 	</section>
 	<!--//cta-section-->
