@@ -1,2 +1,1 @@
-# khalti.onepage
-scm@janakitech.com
+# khalti.campaigns
