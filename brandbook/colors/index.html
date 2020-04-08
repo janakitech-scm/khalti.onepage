@@ -1,0 +1,77 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+
+    <style type='text/css'>
+        .btn.copy {
+            text-align: right;
+            font-size: 0.7rem;
+            float: right;
+        }
+    </style>
+</head>
+
+<body>
+    <div class='container'>
+        <h1>&nbsp;</h1>
+        <h1>Colors - Khalti.com</h1>
+
+        <div class='row'>
+            <div class='col-md-3'>
+                <div class="card mb-3 text-white" style='background-color: #5C2D91'>
+                    <div class="card-header">Brand Color</div>
+                    <div class="card-body">
+                        <button class="btn copy" data-clipboard-target="#color1">Copy</button>
+                        <h5 class="card-title" id='color1'>#5C2D91</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class='col-md-3'>
+                <div class="card mb-3 text-white" style='background-color: #FAA61A'>
+                    <div class="card-header">Second Color</div>
+                    <div class="card-body">
+                        <button class="btn copy" data-clipboard-target="#color2">Copy</button>
+                        <h5 class="card-title" id='color2'>#FAA61A</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class='col-md-3'>
+                <div class="card mb-3 text-white" style='background-color: #EE2A7B'>
+                    <div class="card-header">Third Color</div>
+                    <div class="card-body">
+                        <button class="btn copy" data-clipboard-target="#color3">Copy</button>
+                        <h5 class="card-title" id='color3'>#EE2A7B</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class='col-md-3'>
+                <div class="card mb-3 text-white" style='background-color: #350457'>
+                    <div class="card-header">Dark Purple</div>
+                    <div class="card-body">
+                        <button class="btn copy" data-clipboard-target="#color4">Copy</button>
+                        <h5 class="card-title" id='color4'>#350457</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+
+    <script type="text/javascript">
+        new ClipboardJS('.copy');
+    </script>
+</body>
+
+</html>
+
