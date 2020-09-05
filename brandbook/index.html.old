@@ -1,0 +1,533 @@
+
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162179305-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-162179305-1');
+    </script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="icon" type="image/png" sizes="32x32" href="https://d7vw40z4bofef.cloudfront.net/static/2.59.12-web19/images/favicon.png">
+
+    <title>Khalti.com donates to COVID-19 Relief Fund</title>
+    <meta name="description" content="No. 1 digital wallet in Nepal">
+
+    <meta property="og:url" content="https://donations.khalti.com/covid19/" />
+    <meta property="og:site_name" content="Khatli Donates to the Covid19 Fund" />
+    <meta property="og:image" content="https://donations.khalti.com/covid19/MusicForAID_Banner.web.jpg?v100" />
+    <link href="https://d7vw40z4bofef.cloudfront.net/static/2.59.12-web19/css/bootstrap.css" rel="stylesheet">
+    <link href="https://d7vw40z4bofef.cloudfront.net/static/2.59.12-web19/css/slick.css" rel="stylesheet">
+    <link href="https://d7vw40z4bofef.cloudfront.net/static/2.59.12-web19/css/slick-theme.css" rel="stylesheet">
+    <link href="https://d7vw40z4bofef.cloudfront.net/static/2.59.12-web19/css/phone.min.css" rel="stylesheet">
+    <link href="https://d7vw40z4bofef.cloudfront.net/static/2.59.12-web19/css/custom.css" rel="stylesheet">
+
+    <script src="https://khalti.com/static/khalti-checkout.js"></script>
+
+    <style type="text/css">
+        #aidcontainer {
+            display: block;
+            text-align: center;
+            margin: 0 auto;
+            height: 600px;
+            background: url(brandbook_bg.jpg) no-repeat center -50px;
+            padding-top: 400px;
+            background-color: #0d041f;
+        }
+        
+        #aidbanner {
+            width: 1000px;
+            height: 588px;
+        }
+        
+        @media(min-width:768px) {
+            #aidbanner {
+                text-align: center;
+                background-image: url(MusicForAID_Banner.web.jpg);
+            }
+        }
+        
+        @media(max-width:768px) {
+            #aidbanner {
+                display: none
+            }
+            #aidcontainer {
+                background-size: cover;
+                background-position: top center;
+                padding-top: 400px;
+                background-image: url(MusicForAID_Banner.mobile.jpg?v100);
+            }
+        }
+        
+        #aidcontainer h2 {
+            color: grey;
+            font-size: 20px;
+            line-height: 20px;
+        }
+        
+        #aidcontainer h1 {
+            color: white;
+            font-size: 35px;
+            line-height: 35px;
+        }
+        
+        #aidkalakaar {
+            color: white;
+            font-weight: normal !important;
+            font-size: 15px;
+            max-width: 500px;
+            display: block;
+        }
+        
+        #khaltiId {
+            font-size: 20px;
+            height: 65px;
+            padding: 0 20px;
+            line-height: 40px;
+            color: purple;
+        }
+
+        .btn.copy {
+            text-align: right;
+            font-size: 0.7rem;
+            float: right;
+        }
+
+    </style>
+</head>
+<body id=''>
+    <header id="masthead" class="site-header">
+        <div class="header">
+            <section class="top-bar p-2 d-none d-md-block">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 no-padding">
+                            <a href="https://khalti.com/contact" class="telephone">
+                                <img class="tollfree" src="https://d7vw40z4bofef.cloudfront.net/static/2.59.12-web19/images/icons/tollfree.png"> 1660-01-5-8888 (Khalti)
+                            </a>
+                            <a href="https://khalti.com/download" target="_blank" class="button small orange no-border ml-3 font-weight-bold">Get App</a>
+                        </div>
+
+                        <div class="col-md-6">
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div id="navbar" style='display:none'>
+            <section class="nav mobile-nav">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-2 no-padding">
+                            <a href="/" class="logo" title="Khalti Digital Wallet">Khalti - Logo</a>
+                        </div>
+
+                        <div class="col-md-12 d-block d-md-block d-lg-none navbar navbar-expand-lg navbar-light">
+                            <div class="ham-menu float-right pt-3">
+                                <a class="button no-border" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                    <span class="navbar-toggler-icon"></span>
+                                </a>
+                            </div>
+                            <div class="collapse mobile-submenu" id="collapseExample">
+                                <div class="top-bar p-2 d-md-none steps-mobile">
+                                    <div class="col-md-6 no-padding">
+                                        <a href="tel:1660-01-5-8888" class="telephone">
+                                            <img class="tollfree" src="https://d7vw40z4bofef.cloudfront.net/static/2.59.12-web19/images/icons/tollfree.png"> 1660-01-5-8888 (Khalti)
+                                        </a>
+                                    </div>
+                                    <div class="col-md-6">
+                                    </div>
+                                </div>
+                                <a class="d-block" href="logo.zip">
+					Download Logo
+                                </a>
+                            </div>
+                        </div>
+                        <!--end hamburger menu-->
+
+                        <div class="col-md-10 no-padding">
+                            <nav class="navbar navbar-expand-lg navbar-light no-padding float-right height100">
+
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <ul class="navbar-nav mr-auto">
+                                        <li class="nav-item" id="linkshare">
+                                            <a class="nav-link" href="logo.zip">
+						    Download Logo
+						</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+
+                </div>
+        </div>
+        </section>
+        </div>
+    </header>
+
+    <div id="khaltiContent">
+	<section>
+		<div class="container-404" style='background:white;border-bottom:1px solid lightgrey; border-top:1px solid lightgrey; font-size:3em;'>
+
+
+<div style='display:block; text-align:center;'>
+<img src="logo/khalti-logo-transparent-h125.png" style='height:125px; width:274px;' height=125 width='274' />
+<h1 style='color:#350457; display:block; text-align:center;'><small>नेपाल राष्ट्र बैंकबाट मान्यता प्राप्त</small>
+<br />
+<span style='display:block'>
+राष्ट्रिय भुक्तानी सेवा प्रदायक
+</span>
+</h1>
+</div>
+
+
+
+
+		</div>
+	</section>
+        <section>
+            <div class="container-fluid 404-feat">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-4 feat-col">
+                        <div class="feat-col-wrapper">
+                            <div class="err-feat-head">
+                                <img src="https://d7vw40z4bofef.cloudfront.net/static/web19/images/wallet.svg">
+                                <h4>
+			    	When was Khalti founded ?
+				<a href="#" name="howto"></a>
+                        </h4>
+                            </div>
+                            <div class="err-feat-content">
+				    Sparrow Pay Pvt. Ltd. was registered at the Company Registar on 3rd February, 2016. Nearly a year later, the product Khalti was launced on 26th Jan, 2017.
+				    <div class="text-center py-3 conversion-value"><div class="text-left mx-3"><h3 class="my-1">माघ २०, २०७२ </h3><h2 class="my-1 np-color font-weight-bold">03  February, 2016</h2><h4 class="my-1">बुधवार</h4><div class="my-1">दशमी,&nbsp;माघ कृष्णपक्ष&nbsp; (पोहेलागा),&nbsp;११३६&nbsp;ने.सं.</div></div></div>
+				                           </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-8 feat-col">
+                        <div class="feat-col-wrapper">
+                            <div class="err-feat-head">
+                                <img src="https://d7vw40z4bofef.cloudfront.net/static/web19/images/wallet.svg">
+                                <h4>
+			    Available Downloads
+                        </h4>
+                            </div>
+                            <div class="err-feat-content">
+                                <div class="list-group">
+                                    <div class="list-group-item">
+                                        <div class="row">
+                                            <div class="col-md-8">
+						Logo files
+                                            </div>
+                                            <div class="col-md-4">
+                                                <a href="logo.zip">Download</a>
+					    </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+<style type='text/css'>
+
+	#colors h4{color:white; margin:0; padding:0; }
+
+	#colors .err-feat-content h5, #colors .err-feat-content p{
+		color:white;
+	}
+	#colors button {
+		color:black;
+		display:block;
+	}
+</style>
+
+<!-- colors -->
+<section id='colors'>
+            <div class="container-fluid 404-feat">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-3 feat-col" style='background-color: #5C2D91'>
+                        <div class="feat-col-wrapper">
+                            <div class="err-feat-head">
+                                <h4>
+			    	Brand Color
+                        </h4>
+                            </div>
+                            <div class="err-feat-content">
+	                        <h5 class="card-title copy" id='color1' data-clipboard-target="#color1">#5C2D91</h5>	
+				<p>
+				<strong>Khalti Digital Wallet</strong>
+					<br />
+					<span>The Smartest way to Pay</span>
+				</p>
+				<p>
+					सरल भुक्तानी
+					सही भुक्तानी
+				</p>
+                           </div>
+                        </div>
+			</div>
+
+                    <div class="col-12 col-sm-12 col-md-3 feat-col" style='background-color: #FAA61A'>
+                        <div class="feat-col-wrapper">
+                            <div class="err-feat-head">
+                                <h4>
+			    	Second Color
+                        </h4>
+                            </div>
+                            <div class="err-feat-content">
+	                        <h5 class="card-title copy" id='color2' data-clipboard-target="#color2">#FAA61A</h5>	
+				<p>
+				<strong>Khalti Digital Wallet</strong>
+					<br />
+					<span>The Smartest way to Pay</span>
+				</p>
+				<p>
+					सरल भुक्तानी
+					सही भुक्तानी
+				</p>
+                           </div>
+                        </div>
+ 
+	</div>
+
+                    <div class="col-12 col-sm-12 col-md-3 feat-col" style='background-color: #EE2A7B'>
+                        <div class="feat-col-wrapper">
+                            <div class="err-feat-head">
+                                <h4>
+			    	Third Color
+                        </h4>
+                            </div>
+                            <div class="err-feat-content">
+	                        <h5 class="card-title copy" id='color3' data-clipboard-target="#color3">#EE2A7B</h5>	
+				<p>
+				<strong>Khalti Digital Wallet</strong>
+					<br />
+					<span>The Smartest way to Pay</span>
+				</p>
+				<p>
+					सरल भुक्तानी
+					सही भुक्तानी
+				</p>
+                           </div>
+                        </div>
+ 
+	</div>
+
+                    <div class="col-12 col-sm-12 col-md-3 feat-col" style='background-color: #350457'>
+                        <div class="feat-col-wrapper">
+                            <div class="err-feat-head">
+                                <h4>
+			    	Dark Color
+                        </h4>
+                            </div>
+                            <div class="err-feat-content">
+	                        <h5 class="card-title copy" id='color4' data-clipboard-target="#color4">#350457</h5>
+				<p>
+				<strong>Khalti Digital Wallet</strong>
+					<br />
+					<span>The Smartest way to Pay</span>
+				</p>
+				<p>
+					सरल भुक्तानी
+					सही भुक्तानी
+				</p>
+                           </div>
+                        </div>
+ 
+
+
+	</div>
+
+
+
+
+                    </div>
+		</div>
+
+
+</section>
+
+
+
+
+
+
+
+        <section style='display:none'>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-md-6 sup-col err-blog">
+                        <div>
+                            <div class="err-lower-block-title">
+                                Our Mission to bring easy
+                                <br /> access to finance
+                                <br />
+                            </div>
+                            <div style="margin-top: 12px;">
+                                <a href="https://blog.khalti.com" target="_blank" class="more-link orange-link"> 
+                            Khalti Blog 
+                            <i class="icon-arrow-left ml-2 align-middle margin-minus5"></i>
+                        </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 sup-col err-sc">
+                        <div>
+                            <div class="err-lower-block-title">
+                                Khalti Smart Chhori for
+                                <br /> digitally empowered Nepal
+                            </div>
+                            <div style="margin-top: 12px;">
+                                <a href="https://khalti.com/smart-chhori" target="_blank" class="more-link orange-link"> 
+                            Learn More
+                            <i class="icon-arrow-left ml-2 align-middle margin-minus5"></i>
+                        </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="modal fade" id="msgModal" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content" id="">
+                    <h3 id="modalmsg" style='padding:20px;text-align:center;font-size:20px;line-height:30px;'></h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content" id="login-component">
+                    <form method="POST" action="javascript:void(0)" name='login-form' class="form" id='login-form'>
+                        <div class="modal-body">
+                            <div class="form-group row">
+                                <div class="col-sm-12">
+                                    <div style="padding:20px">
+
+                                        <h3 style='line-height:25px; margin-bottom:10px; font-weight:normal; font-size: 20px;'>
+		  Your small contribution can make a difference.
+				</h3>
+                                        <p>Please enter the amount and press the button to continue. You can pay using your Khalti Digital Wallet or directly from your bank account.</p>
+                                        <input type="number" class="form-control" name="id" id="khaltiId" placeholder="Amount you wish to donate" required autofocus>
+                                    </div>
+                                    <div style='padding-left:20px;'>
+                                        <a href="javascript:donatefn();" id="donate-button" class="button orange button-padding d-inline-block no-border font-weight-bold btn-lg button-disabled">Donate Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--
+            <div class="form-group row">
+                <label class="col-sm-12 col-form-label">Password</label>
+                <div class="col-sm-12">
+                <input type="password" class="form-control" id="khaltiPassword" name="password" placeholder="Your Khalti account password" required style="font-size:0.9em; height: 35px;" oninput="handlePwdInput()">
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-12">
+                <input type="checkbox" onclick="pwdToggler()"> Show Password 
+            </div>
+            <div class="col-md-12">
+                <div class="alert alert-danger" style="display: none; margin-top: 10px" id="loginError">
+                </div>
+            </div>
+	    -->
+                        </div>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div id="scrollTop"><a href="#top"><i class="icon-go-up  align-middle"></i></a></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="https://d7vw40z4bofef.cloudfront.net/static/2.59.12-web19/js/tether.min.js"></script>
+    <script type="text/javascript" src="https://d7vw40z4bofef.cloudfront.net/static/2.59.12-web19/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script type="text/javascript" src="https://d7vw40z4bofef.cloudfront.net/static/2.59.12-web19/js/ie10-viewport-bug-workaround.js"></script>
+    <script type="text/javascript" src="https://d7vw40z4bofef.cloudfront.net/static/2.59.12-web19/js/slick.min.js"></script>
+    <script>
+            $(document).ready(function() {
+            $('#myModal').on('shown.bs.modal', function() {
+                $('#khaltiId').trigger('focus')
+            });
+        });
+
+        var donationconfig = {
+            // replace the publicKey with yours
+            "publicKey": "live_public_key_9c6059480ca44870918a031a764ff95d",
+            "productIdentity": "COVID19_Donation",
+            "productName": "MusicForAid",
+            "productUrl": "https://donations.khalti.com",
+            "eventHandler": {
+                onSuccess(payload) {
+                        $.post("https://donations.khalti.com/verify/", data = payload, function(returndata) {
+                            if (returndata.startsWith("Thank You")) {
+                                modalmsg(returndata);
+                                /*alert("Your contribution has been received successfully");*/
+                            } else {
+                                modalmsg(returndata);
+                            }
+                        });
+                    },
+                    onError(error) {
+                        modalmsg("Error while receiving payment");
+                    },
+                    onClose() {
+                        /*console.log('widget is closing'); */
+                    }
+            }
+        };
+
+        function modalmsg(msg) {
+            $("#msgModal #modalmsg").text(msg);
+            $("#msgModal").modal("show");
+        }
+
+        function donatefn() {
+            $("#myModal").modal("hide");
+            var checkout = new KhaltiCheckout(donationconfig);
+            //        var btn = document.getElementById("donate-button");
+            //        btn.onclick = function () {
+            var donation = document.getElementById("khaltiId");
+            var amount = parseInt(donation.value);
+            checkout.show({
+                amount: amount * 100
+            });
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+
+    <script type="text/javascript">
+        new ClipboardJS('.copy');
+    </script>
+
+
+
+
+</body>
+
+</html>
+
