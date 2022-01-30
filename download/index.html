@@ -11,7 +11,7 @@
  *
  * @returns {String}
  */
-function getMobileOperatingSystem() {
+function getMobileOperatingSystemAndRedirect() {
     var userAgent = navigator.userAgent || navigator.vendor || window.opera;
 
     // Windows Phone must come first because its UA also contains "Android"
@@ -34,6 +34,11 @@ function getMobileOperatingSystem() {
     window.location.href = "https://khalti.com/login/";
     #return "unknown";
 }
+			
+document.addEventListener("DOMContentLoaded", function(event) {
+	getMobileOperatingSystemAndRedirect();
+});
+
 
 </script>
 		
